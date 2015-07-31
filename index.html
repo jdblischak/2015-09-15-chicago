@@ -210,81 +210,47 @@ eventbrite: # optional (delete this if not used, otherwise uncomment and provide
   please preview your site before committing, and make sure to run
   'tools/check' as well.
 -->
-<h2>Syllabus</h2>
+<h2 id="syllabus">Syllabus</h2>
 
-<div class="row">
-  <div class="col-md-6">
-    <h3>The Unix Shell</h3>
-    <ul>
-      <li>Files and directories</li>
-      <li>History and tab completion</li>
-      <li>Pipes and redirection</li>
-      <li>Looping over files</li>
-      <li>Creating and running shell scripts</li>
-      <li>Finding things</li>
-      <li><a href="{{site.swc_lessons}}/ref/01-shell.html">Reference...</a></li>
-    </ul>
-  </div>
-  <div class="col-md-6">
-    <h3>Programming in Python</h3>
-    <ul>
-      <li>Using libraries</li>
-      <li>Working with arrays</li>
-      <li>Reading and plotting data</li>
-      <li>Creating and using functions</li>
-      <li>Loops and conditionals</li>
-      <li>Defensive programming</li>
-      <li>Using Python from the command line</li>
-      <li><a href="{{site.swc_lessons}}/ref/03-python.html">Reference...</a></li>
-    </ul>
-  </div>
-  <!--
-  <div class="col-md-6">
-    <h3>Programming in R</h3>
-    <ul>
-      <li>Working with vectors and data frames</li>
-      <li>Reading and plotting data</li>
-      <li>Creating and using functions</li>
-      <li>Loops and conditionals</li>
-      <li>Using R from the command line</li>
-      <li><a href="{{site.swc_lessons}}/ref/06-R.html">Reference...</a></li>
-    </ul>
-  </div>
-  -->
-</div>
+<h3>Review of the Unix shell and R programming</h3>
+<p>
+  We will start with a refresher on the Unix shell and R
+  programming. Specifically, we will quickly review how to manage files with the
+  Unix shell and write loops and functions in R. This will ensure that everyone
+  is reminded of the relevant syntax needed for the rest of the workshop.
+</p>
 
-<div class="row">
-  <div class="col-md-6">
-    <h3>Version Control with Git</h3>
-    <ul>
-      <li>Creating a repository</li>
-      <li>Recording changes to files: <code>add</code>, <code>commit</code>, ...</li>
-      <li>Viewing changes: <code>status</code>, <code>diff</code>, ...</li>
-      <li>Ignoring files</li>
-      <li>Working on the web: <code>clone</code>, <code>pull</code>, <code>push</code>, ...</li>
-      <li>Resolving conflicts</li>
-      <li>Open licenses</li>
-      <li>Where to host work, and why</li>
-      <li><a href="{{site.swc_lessons}}/ref/02-git.html">Reference...</a></li>
-    </ul>
-  </div>
-  <div class="col-md-6">
-    <h3>Managing Data with SQL</h3>
-    <ul>
-      <li>Reading and sorting data</li>
-      <li>Filtering with <code>where</code></li>
-      <li>Calculating new values on the fly</li>
-      <li>Handling missing values</li>
-      <li>Combining values using aggregation</li>
-      <li>Combining information from multiple tables using <code>join</code></li>
-      <li>Creating, modifying, and deleting data</li>
-      <li>Programming with databases</li>
-      <li><a href="{{site.swc_lessons}}/ref/04-sql.html">Reference...</a></li>
-    </ul>
-  </div>
-</div>
+<h3>Writing reproducible reports</h3>
+<p>
+  We will introduce the concept of literate programming, in which code, plots,
+  and text are combined into one document. This makes it easier to organize a
+  research project and share the results. Specifically, we will use
+  knitr/rmarkdown/pandoc to convert R code into html, pdf, and Word documents.
+</p>
 
-<hr/>
+<h3>Exploring and visualizing data</h3>
+<p>
+  We will teach how to subset, summarize, and clean a data set using the R
+  package dplyr. Furthermore, we will demonstrate how to visualize multivariate
+  data using the popular graphics package ggplot2.
+</p>
+
+<h3>Tracking code development</h3>
+<p>
+  We will cover how to track code development using the version control software
+  Git. This facilitates both experimenting with new ideas and the ability to
+  reproduce past results with a specific version of the code. Furthermore, we
+  will teach them how to share their code online and collaborate using the
+  website GitHub.
+</p>
+
+<h3>Debugging, defensive programming, and automated testing</h3>
+<p>
+  We will cover multiple aspects of ensuring that code is working
+  correctly. This will include how to debug functions, programming defensively
+  by including assertion statements to check code behavior, and writing tests
+  that can be run automatically.
+<p>
 
 <!--
   SETUP
